@@ -1,0 +1,105 @@
+
+
+section.hero {
+    background:  url('./src/assets/media/foto6.jpg') no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+    text-align: center;
+    
+    @extend %flex-aling;
+    flex-direction: column;
+
+    width: 100vw;
+    height: calc(100vh - 100px);
+
+    overflow: hidden;
+
+    position: relative;
+    
+}
+
+.sliders {
+    width: 300vw;
+    height: 100vw;
+    margin-left: 200vw;
+}
+
+.slide {
+    display: inline-block;
+    background: rgba($color: #141313, $alpha: 0.8);
+    width: 100vw;
+    height: 100%;
+
+
+    .slideContent {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    h1, p, button {
+        text-transform: uppercase;
+    }
+    .slideOne__title {
+        color: white;
+        font-size: 6.2rem;
+        font-weight: 800;
+        line-height: 97%;
+
+        span {
+            color: #B28756;
+        }
+    }
+
+    .slideOne__phone {
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 700;
+
+        margin-top: 1.8rem;
+    }
+
+    .slideOne__btnAction {
+        color: white;
+        background: #B28756;
+        border: none;
+        border-radius: 2.4rem;
+
+        margin-top: 3.2rem;
+        padding: 1.6rem 2.4rem;
+        cursor: pointer;
+    }
+
+    .slideTwo {
+        background: #fff;
+    }
+}
+
+.pointers {
+
+    width: 100vw;
+    height: 15px;
+    position: absolute;
+    bottom: 35px;
+
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.pointer {
+    border: #B28756 solid 3px;
+    border-radius: 7px;
+
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.pointer.active {
+    background: #B28756;
+}

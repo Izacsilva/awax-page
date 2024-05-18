@@ -1,0 +1,48 @@
+@import '../base/variable';
+
+.section-default {
+    background-color: $default-background-color;
+    color: $default-text-color;
+    padding: 15px;
+    width: 100vw;
+
+    .section-default__title,
+    .section-default__description,
+    .section-default__body {
+        max-width: 1440px;
+        margin: auto;
+        
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .section-default__title,
+    .section-default__body {
+      margin-top: 3.6rem;
+    }
+
+    .section-default__title,
+    .section-default__description {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .section-default__title {
+      font-size: 2.4rem;
+    }
+
+    .section-default__description {
+        color: lightgray;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-top: .8rem;
+    }
+
+    .section-default__body {
+      height: 200px;
+    }
+
+    
+  }

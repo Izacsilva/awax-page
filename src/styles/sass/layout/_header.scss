@@ -1,0 +1,46 @@
+@import '../utils/centerElements';
+
+header {
+    height: 100px;
+    background: #000;
+    @extend %flex-aling;
+    .headerBox {
+        width: 100%;
+        max-width: 1140px;
+        
+        display: flex;
+        @extend %align-items;
+        justify-content: space-between;
+
+        .header__logo {
+            width: 60px;
+        }
+
+        .header__menu {
+
+            .menu__list {
+                display: flex;
+                gap: 1.6rem;
+                font-size: 1.4rem;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                .menu__link {
+                    @extend %flex-aling;
+                    height: 100px;
+                    padding: 0.4rem;
+                    border-bottom: 5px solid #000;
+                    //
+                    
+
+                    &:hover {
+                        color: rgb(185, 185, 185);
+                        border-bottom: 5px solid #B28756;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

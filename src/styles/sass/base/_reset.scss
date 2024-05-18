@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+svg {
+    width: 100px;
+}

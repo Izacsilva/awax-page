@@ -1,0 +1,58 @@
+.about {
+    width: 100%;
+    max-width: 1140px;
+    padding: 6.4rem;
+    text-align: center;
+    margin: auto;
+}
+
+.about__header {
+    text-transform: uppercase;
+    margin-bottom: 5.2rem;;
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    p {
+        color: lightgray;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: .8rem;
+    }
+}
+
+.about__content {
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+
+    .content__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.2rem;
+
+        p {
+            font-size: 1.4rem;
+            text-align: start;
+            line-height: 2.4rem;
+        }
+
+        button {
+            color: white;
+            background: #B28756;
+            border: none;
+            border-radius: 2.4rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.09rem;
+            padding: 1rem 3.2rem;
+        }
+    }
+
+    .content__midia img{
+        height: 220px;
+        box-shadow: 8px 8px 16px rgba($color: #333, $alpha: 0.3);
+    }
+}
