@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: solid 1px #dadada;
+    border-radius: 25px;
+}
+
+li {
+    background-color: #ededed;
+    padding: 1.6rem;
+    
+}
+li+li {
+    border-left: solid 1px #dadada;
+}
+
+li:first-child {
+    padding-left: 3.6rem;
+    border-radius: 25px 0 0 25px;
+}
+
+li:last-child {
+    padding-right: 3.6rem;
+    border-radius: 0 25px 25px 0;
+}

@@ -6,6 +6,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import SectionDefault from "./components/SectionDefault.jsx";
 import Services from "./components/Services.jsx";
+import OurProjects from "./components/OurProjects.jsx";
 
 
 function App() {
@@ -24,12 +25,12 @@ function App() {
         <Services></Services>        
       </SectionDefault>
       <SectionDefault
-       title="Services"
-      description="services that we provide"
+       title="Out projects"
+      description="what we create"
       corFundo="white"
       corTexto="black"
       >
-        <Services></Services>        
+        <OurProjects></OurProjects>
       </SectionDefault>
 
     </>
