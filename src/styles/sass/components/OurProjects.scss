@@ -1,27 +1,104 @@
-ul {
+.section-OurProjects ul {
+    background-color: #ededed;
     display: flex;
+    justify-content: center;
     color: #8d8d8d;
     text-transform: uppercase;
     font-size: 1.1rem;
     border: solid 1px #dadada;
     border-radius: 25px;
+    padding: 0px 1.4rem;
+
 }
 
-li {
-    background-color: #ededed;
-    padding: 1.6rem;
+.section-OurProjects li {
+    border-left: solid 1px #dadada;
+    padding: 1.2rem;
+    cursor: pointer;
+    
+    border-bottom: solid 4px #ededed;
     
 }
-li+li {
-    border-left: solid 1px #dadada;
+
+.section-OurProjects li:hover,
+.section-OurProjects li.active {
+    border-bottom: solid 4px #c88c54;
+    background-color: #e1e1e1;
 }
 
-li:first-child {
-    padding-left: 3.6rem;
-    border-radius: 25px 0 0 25px;
+.section-OurProjects li:first-child {
+    border-left: 0;
 }
 
-li:last-child {
-    padding-right: 3.6rem;
-    border-radius: 0 25px 25px 0;
+.OurProjects__galery-photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 2.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.photos__info:hover {
+    opacity: 0.6;
+}
+
+.photos__info {
+    background: #000;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 18rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    opacity: 0.0;
+}
+
+.photos__info h1 {
+    font-size: 1.4rem;
+}
+
+.photos__info p {
+    width: 10rem;
+    color: lightgray;
+}
+
+.galery-photo__photos {
+    width: 18rem;
+    height: 10rem;
+}
+
+.photos__img {
+    width: inherit;
+    height: inherit;
+}
+
+.photos__img img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.OurProjects__button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.OurProjects__button button {
+    color: white;
+    background: #B28756;
+    border: none;
+    border-radius: 2.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
+    padding: 1rem 3.2rem;
 }
