@@ -7,6 +7,7 @@ import About from "./components/About.jsx";
 import SectionDefault from "./components/SectionDefault.jsx";
 import Services from "./components/Services.jsx";
 import OurProjects from "./components/OurProjects.jsx";
+import OurTeam from "./components/OurTeam.jsx";
 
 
 function App() {
@@ -31,6 +32,17 @@ function App() {
       corTexto="black"
       >
         <OurProjects></OurProjects>
+      </SectionDefault>
+
+      <SectionDefault
+       title="Our Team"
+      description="our co-workers"
+      corFundo="black"
+      corTexto="white"
+      >
+
+      <OurTeam></OurTeam>
+
       </SectionDefault>
 
     </>

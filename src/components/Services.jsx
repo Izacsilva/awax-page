@@ -1,4 +1,6 @@
 import React from 'react'
+import SectionDefault from "./SectionDefault.jsx";
+
 
 const Services = () => {
   return (

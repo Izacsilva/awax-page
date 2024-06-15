@@ -1,0 +1,81 @@
+.ourTeams {
+    width: 100vw;
+}
+
+// .ourTeams * {
+//     border: 1px solid red;
+// }
+
+.cards {
+    max-width: 1140px;
+    display: flex;
+    
+    margin: auto;
+}
+
+.card {
+    max-width: 35rem;
+    background: white;
+    color: #2a2a2a;
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.6rem;
+}
+
+.ourTeams .imgPerson img{
+    max-width: 148px;
+}
+
+.teamSocial {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+
+.socialIcon {
+    background: #bebebe;
+    padding: .6rem;
+    border: none;
+    border-radius: 1.6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 32px;
+}
+
+.socialIcon img {
+    height: 14px;
+    border: none;
+}
+
+
+
+
+.teamPointers {
+    height: 15px;
+
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.pointer {
+    border: #B28756 solid 3px;
+    border-radius: 7px;
+
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.pointer.active {
+    background: #B28756;
+}
